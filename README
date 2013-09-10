@@ -1,12 +1,3 @@
 Caesar Cypher by Javier Alejandro Chavez
 
-This simple script will encrypt any word (or phrase) a user inputs using a Caesar shift. The shift used is 3.
-
-
-Bugs:
-
-1. The only check on the user's input is a length check, i.e., len(raw_input) > 0. This means user can input a non-alphabetic character and the code will simply print the input as is, i.e., raw_input = !!! then code prints !!!.
-
-Features to implement:
-
-1. Decryption.
+This simple script will encrypt any word (or phrase) a user inputs using a Caesar shift of 3.
